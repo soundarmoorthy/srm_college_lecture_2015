@@ -1,0 +1,1 @@
+cmd_/home/minion/kinetic/driver/nothing.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/minion/kinetic/driver/nothing.ko /home/minion/kinetic/driver/nothing.o /home/minion/kinetic/driver/nothing.mod.o
